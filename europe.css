@@ -1,0 +1,386 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+@import url('http://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900%display=swap');
+
+body 
+{
+    min-height:100vh;
+    overflow-x: hidden;
+    background: linear-gradient(#131241, #41125A);
+ 
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+header .logo
+{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header ul
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+header ul li a:hover,
+header ul li a.num1
+{
+    background: #fff;
+    color: #131241
+}
+.europe{
+    text-decoration: none;
+    border:none;
+    border-radius: 20px;
+    margin-left: 125px;
+    width: 80%;
+    height: 50px;
+    background-color: rgb(223, 217, 143);
+    color: rgb(7, 25, 85);
+    text-align: center;
+    margin-top: 140px;
+    padding: 4px;
+    margin-bottom: 20px;
+}
+h1,h3,p{
+    background: none;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+.left{
+    width: 50%;
+    height: 400px;
+    background-image: url("jad-limcaco-NT1mJPgni6A-unsplash.jpg");
+    border-radius: 10px;
+    background-size: cover;
+}
+.right{
+    width: 50%;
+    height: 300px;
+    background-color: rgb(255, 196, 0);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+    border-radius: 20px;
+}
+.content{
+    background-color:rgb(255, 196, 0);
+    color: rgb(255, 255, 255);
+    margin: 10px 10px;
+    word-spacing: 2px;
+}
+h3{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.container-1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+.left-1{
+    width: 50%;
+    height: 400px;
+    background-image: url("dominik-dancs-jzbSsO1bRZE-unsplash.jpg");
+    border-radius: 10px;
+    background-size: cover;
+}
+.right-1{
+    width: 50%;
+    height: 300px;
+    background-color: rgb(255, 196, 0);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+    border-radius: 20px;
+}
+.content-1{
+    background-color:rgb(255, 196, 0);
+    color: rgb(255, 255, 255);
+    margin: 10px 10px;
+    word-spacing: 2px;
+}
+.container-2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+.left-2{
+    width: 50%;
+    height: 400px;
+    background-image: url("neil-rosenstech-1o4Z1EwCkaY-unsplash.jpg");
+    border-radius: 10px;
+    background-size: cover;
+}
+.right-2{
+    width: 50%;
+    height: 300px;
+    background-color: rgb(255, 196, 0);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+    border-radius: 20px;
+}
+.content-2{
+    background-color:rgb(255, 196, 0);
+    color: rgb(255, 255, 255);
+    margin: 10px 10px;
+    word-spacing: 2px;
+}
+.container-3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+.left-3{
+    width: 50%;
+    height: 400px;
+    background-image: url("sofia--BsOaMez3T4-unsplash.jpg");
+    border-radius: 10px;
+    background-size: cover;
+}
+.right-3{
+    width: 50%;
+    height: 300px;
+    background-color: rgb(255, 196, 0);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+    border-radius: 20px;
+}
+.content-3{
+    background-color:rgb(255, 196, 0);
+    color: rgb(255, 255, 255);
+    margin: 10px 10px;
+    word-spacing: 2px;
+}
+.container-4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+.left-4{
+    width: 50%;
+    height: 400px;
+    background-image: url("frans-ruiter-jfPGunIH_9M-unsplash.jpg");
+    border-radius: 10px;
+    background-size: cover;
+}
+.right-4{
+    width: 50%;
+    height: 300px;
+    background-color: rgb(255, 196, 0);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+    border-radius: 20px;
+}
+.content-4{
+    background-color:rgb(255, 196, 0);
+    color: rgb(255, 255, 255);
+    margin: 10px 10px;
+    word-spacing: 2px;
+}
+.container-5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+.left-5{
+    width: 50%;
+    height: 400px;
+    background-image: url("tobias-fischer-x_oaUvuBuaI-unsplash.jpg");
+    border-radius: 10px;
+    background-size: cover;
+}
+.right-5{
+    width: 50%;
+    height: 300px;
+    background-color: rgb(255, 196, 0);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+    border-radius: 20px;
+}
+.content-5{
+    background-color:rgb(255, 196, 0);
+    color: rgb(255, 255, 255);
+    margin: 10px 10px;
+    word-spacing: 2px;
+}
+.container-6{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+.left-6{
+    width: 50%;
+    height: 400px;
+    background-image: url("nick-karvounis-3_ZGrsirryY-unsplash.jpg");
+    border-radius: 10px;
+    background-size: cover;
+}
+.right-6{
+    width: 50%;
+    height: 300px;
+    background-color: rgb(255, 196, 0);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+    border-radius: 20px;
+}
+.content-6{
+    background-color:rgb(255, 196, 0);
+    color: rgb(255, 255, 255);
+    margin: 10px 10px;
+    word-spacing: 2px;
+}
+.container-7{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+.left-7{
+    width: 50%;
+    height: 400px;
+    background-image: url("jaunt-and-joy-of-EmRp0jwg-unsplash.jpg");
+    border-radius: 10px;
+    background-size: cover;
+}
+.right-7{
+    width: 50%;
+    height: 300px;
+    background-color: rgb(255, 196, 0);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+    border-radius: 20px;
+}
+.content-7{
+    background-color:rgb(255, 196, 0);
+    color: rgb(255, 255, 255);
+    margin: 10px 10px;
+    word-spacing: 2px;
+}
+.container-8{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+.left-8{
+    width: 50%;
+    height: 400px;
+    background-image: url("nicola-pavan-TWqEt_jwW2s-unsplash.jpg");
+    border-radius: 10px;
+    background-size: cover;
+}
+.right-8{
+    width: 50%;
+    height: 300px;
+    background-color: rgb(255, 196, 0);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+    border-radius: 20px;
+}
+.content-8{
+    background-color:rgb(255, 196, 0);
+    color: rgb(255, 255, 255);
+    margin: 10px 10px;
+    word-spacing: 2px;
+}
+.container-9{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+.left-9{
+    width: 50%;
+    height: 400px;
+    background-image: url("tamara-menzi-ZAd3Z9wOgOs-unsplash.jpg");
+    border-radius: 10px;
+    background-size: cover;
+}
+.right-9{
+    width: 50%;
+    height: 300px;
+    background-color: rgb(255, 196, 0);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+    border-radius: 20px;
+}
+.content-9{
+    background-color:rgb(255, 196, 0);
+    color: rgb(255, 255, 255);
+    margin: 10px 10px;
+    word-spacing: 2px;
+}
